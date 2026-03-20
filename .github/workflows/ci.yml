@@ -18,7 +18,10 @@ jobs:
           python-version: "3.11"
 
       - name: Install dependencies
-        run: pip install torch --index-url https://download.pytorch.org/whl/cpu
+        run: pip install torch --index-url https://download.pytorch.org/whl/cpu && pip install pytest
+
+      - name: Run unit tests
+        run: pytest tests/ -v
 
       - name: Run multimodal demo
         run: python examples/run_multimodal_demo.py
