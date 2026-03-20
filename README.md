@@ -5,8 +5,6 @@ Personal practice and test code for two sequence-modeling patterns:
 1. **Multimodal sequence-level regression** — a CNN-based predictor with gated modality attention
 2. **Conditional local sequence editing** — a small denoising model operating on frozen representations
 
-Both use toy inputs and a mock backbone. No proprietary code or data.
-
 ## Layout
 
 ```
