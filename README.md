@@ -1,4 +1,4 @@
-# Sequence Modeling Prototypes
+# modeling code playground
 
 Personal practice and test code for two sequence-modeling patterns:
 
